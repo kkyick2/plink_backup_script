@@ -1,4 +1,4 @@
-# plink script
+# plink backup script
 * Use plink ssh to devices and execute commands
 
 ## How to start ?
