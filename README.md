@@ -26,13 +26,13 @@ Username,Password,Hostname,Manangment IP,Port number,Script
 
 ## Project File structure
 ---
-cmd/xxx              : put your command txt in this folder
-iplist.csv           : set up for inventory and login
-00_1st_ssh_login.bat : execute for 1st time login
-01_config_backup.bat : execute for backup config
-connect_login.bat    : no need to touch
-connect_login_1st.bat: no need to touch
-plink.exe            : cmd tool for login to device, no need to touch
+* cmd/xxx              : put your command txt in this folder
+* iplist.csv           : set up for inventory and login
+* 00_1st_ssh_login.bat : execute for 1st time login
+* 01_config_backup.bat : execute for backup config
+* connect_login.bat    : no need to touch
+* connect_login_1st.bat: no need to touch
+* plink.exe            : cmd tool for login to device, no need to touch
 
 ## update by jackyy
-20230614
+* 20230614
