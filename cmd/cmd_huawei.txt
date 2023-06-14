@@ -1,0 +1,5 @@
+screen-length disable
+display version
+display device
+display current-configuration
+quit
