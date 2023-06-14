@@ -1,0 +1,30 @@
+screen-length disable
+dis cu
+display device
+display version
+display interface brief
+display interface
+display vlan
+display vlan brief
+display stp
+display stp brief
+display ip interface brief
+display ip routing-table all-routes
+display ospf interface
+display ospf peer
+display pim interface
+display pim neighbor
+display multicast routing-table 
+display arp
+display mac-address
+display link-aggregation summary
+display clock
+display ntp-service status
+display lldp neighbor
+display lldp neighbor list
+display lldp neighbor verbose
+display irf
+display irf link
+display irf topology
+display transceiver interface
+exit

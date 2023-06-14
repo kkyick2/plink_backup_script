@@ -1,0 +1,4 @@
+screen-length disable
+dis cu
+display version
+exit
