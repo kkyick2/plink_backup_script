@@ -5,15 +5,17 @@
 ---
 Step to use plink backup script:
 
-1/ Prepare a txt file for show command and put in cmd folder
+0/ unzip the files
 
-2/ Prepare device inventory and login information in iplist.csv
+1/ edit cmd_cmd_xxxx.txt or create a new txt file for show commands
+
+2/ edit iplist.csv, input inventory, login information below:
 
 Username,Password,Hostname,Manangment IP,Port number,Script
 
 3/ run 00_1st_ssh_login.bat one time, to trust ssh key in putty
 
-4/ run 01_config_backup.bat, run this bat to start execute cmd on the devices in iplist.csv, a output folder will be created
+4/ run 01_config_backup.bat to execute, a output folder will be generated for results
 
 ## Remark for plink version
 ---
