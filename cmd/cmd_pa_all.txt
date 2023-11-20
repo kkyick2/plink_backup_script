@@ -1,0 +1,17 @@
+set cli pager off
+show system info
+show interface all
+show routing summary 
+show routing route
+show routing path-monitor 
+show arp all
+show mac all
+show vpn ike-sa 
+show vpn ipsec-sa 
+show vpn gateway 
+show vpn tunnel
+show high-availability all
+show transceiver all
+show ntp
+show clock
+exit
