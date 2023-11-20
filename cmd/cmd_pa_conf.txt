@@ -1,0 +1,13 @@
+set cli pager off
+
+set cli config-output-format xml
+configure
+show
+exit
+
+set cli config-output-format set
+configure
+show
+exit
+
+exit
