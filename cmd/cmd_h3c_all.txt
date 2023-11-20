@@ -1,5 +1,5 @@
 screen-length disable
-dis cu
+dis cur
 display device
 display version
 display interface brief
@@ -9,6 +9,7 @@ display vlan
 display vlan brief
 display stp
 display stp brief
+display stp root
 display ip interface brief
 display ip interface brief description
 display ip routing-table all-routes
@@ -29,4 +30,9 @@ display irf
 display irf link
 display irf topology
 display transceiver interface
+exit
+
+display interface
+display vlan
+display lldp neighbor
 exit
