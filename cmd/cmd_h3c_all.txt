@@ -3,12 +3,14 @@ dis cu
 display device
 display version
 display interface brief
+display interface brief description
 display interface
 display vlan
 display vlan brief
 display stp
 display stp brief
 display ip interface brief
+display ip interface brief description
 display ip routing-table all-routes
 display ospf interface
 display ospf peer
