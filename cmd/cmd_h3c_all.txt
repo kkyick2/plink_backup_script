@@ -7,6 +7,7 @@ display interface brief description
 display interface
 display vlan
 display vlan brief
+display port trunk
 display stp
 display stp brief
 display stp root
