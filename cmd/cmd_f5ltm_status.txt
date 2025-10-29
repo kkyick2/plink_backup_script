@@ -1,0 +1,44 @@
+modify cli preference pager disabled display-threshold 0
+show running-config
+f5mku -K
+#############
+list auth
+list cli
+list cm
+list ltm auth
+list ltm data-group
+list ltm global-settings
+list ltm monitor
+list ltm persistence
+list ltm profile
+list ltm snat
+list ltm snat-translation
+list ltm snatpool
+list ltm tacdb
+list net
+list sec
+list sys
+#############
+show sys version
+show sys hardware
+list net interface serial
+show net interface
+show cm device
+show cm device-group
+show cm sync-status
+show cm failover-status
+show sys performance throughput historical
+show sys cpu
+show sys license
+list sys software image
+show sys software status
+show net interface -hidden
+#############
+show ltm pool members field-fmt | grep "ltm pool\|addr\|monitor-status"
+#############
+quit
+
+show ltm virtual all-properties | grep -E "Ltm|Availability"
+show ltm pool all-properties | grep -E "Ltm|Availability"
+show ltm pool all members all-properties |grep -E "Ltm|Availability"
+

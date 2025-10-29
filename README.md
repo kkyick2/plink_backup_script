@@ -9,13 +9,19 @@ Step to use plink backup script:
 
 1/ edit cmd_cmd_xxxx.txt or create a new txt file for show commands
 
-2/ edit iplist.csv, input inventory, login information below:
+2/ edit iplist.csv or create new csv files for input inventory and login, with below format
 
 Username,Password,Hostname,Manangment IP,Port number,Script
 
 3/ run 00_1st_ssh_login.bat one time, to trust ssh key in putty
 
 4/ run 01_config_backup.bat to execute, a output folder will be generated for results
+
+```
+edit below in the script
+SET BATCH=output
+SET INFILE=config\iplist_lhk2.csv
+```
 
 ## Remark for plink version
 ---
@@ -26,13 +32,14 @@ Username,Password,Hostname,Manangment IP,Port number,Script
 
 ## Project File structure
 ---
-* cmd/xxx              : put your command txt in this folder
-* iplist.csv           : set up for inventory and login
-* 00_1st_ssh_login.bat : execute for 1st time login
-* 01_config_backup.bat : execute for backup config
-* connect_login.bat    : no need to touch
-* connect_login_1st.bat: no need to touch
-* plink.exe            : cmd tool for login to device, no need to touch
+* config/connect_login.bat     : do not edit
+* config/connect_login_1st.bat : do not edit
+* config/plink.exe             : do not edit, tool for login
+* cmd/xxx                      : put your command txt in this folder
+* config/iplist.csv            : set up for inventory and login
+* 00_1st_ssh_login.bat         : execute for 1st time login
+* 01_config_backup.bat         : execute for show cmd script
 
-## update by jackyy
+
+## update by jackyyick
 * 20230614

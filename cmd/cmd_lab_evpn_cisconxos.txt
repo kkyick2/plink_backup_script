@@ -1,0 +1,38 @@
+ter len 0
+sh clock
+sh ver
+sh inv
+sh run
+sh int status 
+
+sh ip int b
+sh ip route summary vrf all
+sh ip route vrf all
+sh ip ospf neighbors vrf all
+sh ip pim neighbor vrf all
+
+sh nve peers
+sh nve vni
+sh vxlan
+sh nve peers detail 
+sh nve vni all detail
+
+sh l2route evpn mac all
+sh l2route evpn mac-ip all
+
+sh bgp l2vpn evpn summary vrf all
+sh bgp l2vpn evpn vrf all
+
+sh ip bgp ipv4 unicast summary 
+sh ip bgp ipv4 unicast vrf all
+
+sh vpc 
+sh vpc peer-keepalive
+sh port-channel summary
+
+sh ip arp vrf all
+sh mac address-table 
+
+sh cdp neighbors
+
+exit

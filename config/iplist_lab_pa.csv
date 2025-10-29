@@ -1,0 +1,2 @@
+Username,Password,Hostname,Manangment IP,Port number,Script
+admin,P@ssw0rd,pafw,172.16.11.51,22,cmd_pa_conf

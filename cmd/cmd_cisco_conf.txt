@@ -1,4 +1,5 @@
 ter len 0
+show clock
 show run
 show version
 exit

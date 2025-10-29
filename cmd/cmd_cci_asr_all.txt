@@ -1,0 +1,29 @@
+ter len 0
+show clock
+show version
+show license
+Show inventory
+show platform
+Show process cpu sorted
+sho ip inter
+sho ip inter br
+show int trunk
+show etherchannel summary
+show spanning-tree
+show mac address-table
+show mpls l2transport summary
+show mpls l2transport pwid
+show mpls l2transport vc
+show vfi
+show redundancy 
+show bridge-domain
+show vrf detai
+show vrf Mgmt-intf
+show ip route
+show ip route vrf  Mgmt-intf
+show ip ospf nei
+show ip ospf int
+show ip ospf
+show run
+Show process cpu sorted
+ter no len

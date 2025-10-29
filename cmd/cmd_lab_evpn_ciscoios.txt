@@ -1,0 +1,20 @@
+ter len 0
+sh clock
+sh ver
+sh inv
+sh run
+sh int status 
+
+sh ip int b
+sh ip route
+sh vrf
+sh ip arp
+sh ip arp vrf DC01_V104
+sh ip arp vrf DC01_V105
+sh ip arp vrf DC02_V104
+sh ip arp vrf DC02_V105
+sh mac address-table 
+
+sh cdp neighbors
+
+exit

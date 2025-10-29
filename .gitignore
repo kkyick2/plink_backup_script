@@ -1,4 +1,7 @@
 # kkyick2
+config/*lhk2*
+config/*empf*
+config/*hkstp*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

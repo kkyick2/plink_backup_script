@@ -7,8 +7,10 @@
 :: <6>: output folder name1 (output)
 :: <7>: output file name
 :: ===============================================
-FOR /F "skip=1 tokens=1-5 delims=," %%a in (iplist.csv) do (
-  start connect_login_1st.bat %%a %%b %%d %%e
+SET INFILE=config\iplist_lhk2.csv
+
+FOR /F "skip=1 tokens=1-5 delims=," %%a in (%INFILE%) do (
+  start config\connect_login_1st.bat %%a %%b %%d %%e
 )
 pause
 ::  exit

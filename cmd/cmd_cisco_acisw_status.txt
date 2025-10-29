@@ -1,0 +1,9 @@
+show interface brief
+show interface status
+show interface description
+show ip interface brief
+show environment
+show version
+show clock
+exit
+

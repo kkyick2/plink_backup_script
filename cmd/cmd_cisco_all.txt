@@ -1,4 +1,5 @@
 ter len 0
+show clock
 show version
 show run
 show inventory
@@ -16,7 +17,6 @@ show ip ospf neighbor
 show ip arp
 show mac address-table
 show etherchannel summary
-show clock
 show ntp status
 show cdp neighbors
 show cdp neighbors detail

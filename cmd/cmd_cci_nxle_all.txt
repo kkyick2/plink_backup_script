@@ -1,0 +1,25 @@
+ter len 0
+show clock
+show version
+show license usage
+show inventory all
+show module
+show interf status
+show interf
+Show environment
+Show process cpu sorted
+show vlan 
+Show vpc peer
+show vpc  brief 
+Show log last
+Show interface trunk
+show mac address-table
+show ip route
+show ip route vrf all
+show spanning-tree
+show port-channel summary
+show run
+show proce cpu sor
+show bfd vrf all nei
+show hsrp brief
+ter no len

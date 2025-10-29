@@ -1,0 +1,23 @@
+ter len 0
+show clock
+show vers
+show license right-to-use
+show inventory raw
+show platform
+Show process cpu sorted
+Show interface
+sho ip inter br
+show vlan
+show vrf detail
+show etherchannel summary
+show int trunk
+show spanning-tree
+show mac address-table
+Show standy brief
+show ip route
+show ip route vrf  Mgmt-vrf
+Show logg
+show run
+Show process cpu sorted
+show hsrp brief
+ter no len

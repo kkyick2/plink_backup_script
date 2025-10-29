@@ -1,0 +1,10 @@
+ter len 0
+show clock
+show int desc | in Te1/1/1
+show int desc | in Te1/1/3
+show int T1/1/1 | in rate
+show int T1/1/3 | in rate
+show int T1/1/1
+show int T1/1/3
+exit
+
