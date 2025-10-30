@@ -13,9 +13,9 @@ set "YY=%dt:~2,2%" & set "YYYY=%dt:~0,4%" & set "MM=%dt:~4,2%" & set "DD=%dt:~6,
 set "HH=%dt:~8,2%" & set "Min=%dt:~10,2%" & set "Sec=%dt:~12,2%"
 
 ::=====================================================================
-:: edit batch name and csv file
-set INFILE=config\iplist_lhk2.csv
+:: Batch
 set BATCH=output
+set INFILE=config\iplist_lhk2.csv
 
 set "FILESTAMP=%BATCH%_%YYYY%%MM%%DD%_%HH%%Min%"
 FOR /F "skip=1 tokens=1-6 delims=," %%a in (%INFILE%) do (
