@@ -16,7 +16,7 @@ Step to use plink backup script:
 
 ```bat
 ::edit csv below format
-Username,Password,Hostname,Manangment IP,Port number,Script
+:: username,password,hostname,ip,port,cmdfile,outsuffix
 ```
 
 3/ run 00_1st_ssh_login.bat one time, to trust ssh key in putty
@@ -24,9 +24,9 @@ Username,Password,Hostname,Manangment IP,Port number,Script
 4/ run 01_config_backup.bat to execute, a output folder will be generated for results
 
 ```bat
-::edit below in the script
-SET BATCH=output
-SET INFILE=config\iplist_lhk2.csv
+:: Batch
+set BATCH=empf_n_sample_check
+set INFILE=config\%BATCH%.csv
 ```
 
 ## Remark for plink version

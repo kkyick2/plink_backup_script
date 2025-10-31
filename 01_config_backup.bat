@@ -6,6 +6,11 @@
 :: <5>: cmd file name
 :: <6>: output folder name1 (output)
 :: <7>: output file name
+::
+:: read config\device.csv
+:: username,password,hostname,ip,port,cmdfile,outsuffix
+:: a        b        c        d   e    f       g
+::
 ::===============================================
 :: Datetime folder
 for /f "tokens=2 delims==" %%a in ('wmic OS Get localdatetime /value') do set "dt=%%a"
@@ -14,12 +19,12 @@ set "HH=%dt:~8,2%" & set "Min=%dt:~10,2%" & set "Sec=%dt:~12,2%"
 
 ::=====================================================================
 :: Batch
-set BATCH=output
-set INFILE=config\iplist_lhk2.csv
+set BATCH=empf_n_sample_check
+set INFILE=config\%BATCH%.csv
 
 set "FILESTAMP=%BATCH%_%YYYY%%MM%%DD%_%HH%%Min%"
-FOR /F "skip=1 tokens=1-6 delims=," %%a in (%INFILE%) do (
- start config\connect_login.bat %%a %%b %%d %%e cmd\%%f.txt %FILESTAMP% %%c.txt
+FOR /F "skip=1 tokens=1-7 delims=," %%a in (%INFILE%) do (
+ start config\connect_login.bat %%a %%b %%d %%e cmd\%%f.txt %FILESTAMP% %%c_%%g.txt
  )
 ::=====================================================================
 exit

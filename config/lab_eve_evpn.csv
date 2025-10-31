@@ -1,0 +1,5 @@
+username,password,hostname,ip,port,cmdfile,outsuffix
+admin,admin,p1spine1,172.16.11.51,22,cmd_lab_evpn_cisconxos,all
+admin,admin,p1spine2,172.16.11.52,22,cmd_lab_evpn_cisconxos,all
+admin,admin,p1leaf1,172.16.11.53,22,cmd_lab_evpn_cisconxos,all
+admin,admin,p1leaf2,172.16.11.54,22,cmd_lab_evpn_cisconxos,all

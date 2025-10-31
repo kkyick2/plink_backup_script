@@ -1,3 +1,0 @@
-get system status
-show
-exit
