@@ -13,9 +13,12 @@
 ::
 ::===============================================
 :: Datetime folder
-for /f "tokens=2 delims==" %%a in ('wmic OS Get localdatetime /value') do set "dt=%%a"
-set "YY=%dt:~2,2%" & set "YYYY=%dt:~0,4%" & set "MM=%dt:~4,2%" & set "DD=%dt:~6,2%"
-set "HH=%dt:~8,2%" & set "Min=%dt:~10,2%" & set "Sec=%dt:~12,2%"
+set "YYYY=%DATE:~10,4%"
+set "MM=%DATE:~4,2%"
+set "DD=%DATE:~7,2%"
+set "HH=%TIME:~0,2%"
+if "%HH:~0,1%"==" " set "HH=0%HH:~1,1%"
+set "Min=%TIME:~3,2%"
 
 ::=====================================================================
 :: Batch
